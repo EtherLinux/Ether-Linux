@@ -1,0 +1,8 @@
+PRETTY_NAME="Ether GNU/Linux Kamoro"
+NAME="Ether GNU/Linux"
+VERSION_ID="1.0"
+VERSION="1.0"
+VERSION_CODENAME=kamoro
+ID_LIKE=debian
+ID=ether
+HOME_URL="https://ether-linux.org"

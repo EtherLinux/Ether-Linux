@@ -1,0 +1,6 @@
+! Packages Priority standard
+
+# Ether Kernel by default
+
+linux-image-amd64
+linux-headers-amd64

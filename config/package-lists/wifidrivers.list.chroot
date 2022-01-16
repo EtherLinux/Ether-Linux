@@ -1,0 +1,4 @@
+firmware-b43-installer firmware-b43legacy-installer
+
+xserver-xorg-input-all
+xserver-xorg-video-all

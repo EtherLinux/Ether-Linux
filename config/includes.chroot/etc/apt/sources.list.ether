@@ -1,0 +1,9 @@
+# Ether defaut mirror from debian
+
+deb http://deb.debian.org/debian bullseye main contrib non-free
+deb-src http://deb.debian.org/debian bullseye main contrib non-free
+
+# Ether APT Mirror from mirror unej thanks :)
+
+# deb http://mirror.unej.ac.id/debian/ sid main contrib non-free
+# deb-src http://mirror.unej.ac.id/debian/ sid main contrib non-free

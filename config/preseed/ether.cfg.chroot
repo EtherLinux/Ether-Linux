@@ -1,0 +1,4 @@
+#Disable world-readable home dirs
+adduser adduser/homedir-permission boolean false
+
+
