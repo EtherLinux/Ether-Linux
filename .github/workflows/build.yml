@@ -30,10 +30,12 @@ jobs:
 
       - name: Upload Build Log
         uses: actions/upload-artifact@v2
+        if: always()
         with:  
             name: Build Log
             path: build.log
             if-no-files-found: error
+
       - name: Upload Ether Linux Iso
         uses: actions/upload-artifact@v2
         with:
