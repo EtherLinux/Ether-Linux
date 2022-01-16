@@ -29,6 +29,7 @@ jobs:
         run: bash build.sh
 
       - name: Checking Dir
+        if: always()
         run: ls 
 
       - name: Upload Build Log
