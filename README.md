@@ -21,9 +21,11 @@
 
 ## Navigation
 - [Introduction](#introduction)
-- [Get The ISO](#get-the-iso)
 - [Building](#building)
+- [Get The ISO](#get-the-iso)
 - [Donate](#donate)
+
+---
 
 ### Building
 
@@ -45,6 +47,8 @@ You need install docker and docker compose in your system, and run
 docker-compose up -d 
 ```
 
+---
+
 ### Get The ISO
 
 <p align="left">
@@ -52,6 +56,8 @@ docker-compose up -d
   <a href="https://sourceforge.net/" target="_blank"><img alt="Ether Linux" src="https://img.shields.io/badge/Download-Sourceforge-orange?style=for-the-badge&logo=sourceforge"></a>&nbsp;&nbsp;
   <a href="https://github.com/" target="_blank"><img alt="Ether Linux" src="https://img.shields.io/badge/Download-Torrent-magenta?style=for-the-badge&logo=discogs"></a>
 </p>
+
+----
 
 ### Donate
 <p align="left">
