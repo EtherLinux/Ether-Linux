@@ -4,6 +4,8 @@ name: Build CI
 
 on:
   push:
+    paths:
+      - '**.md'
     branches:
       - main
   pull_request:

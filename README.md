@@ -1,5 +1,6 @@
 # Ether-Linux-Pentest
 
+## Introduction
 <p align="center">
 <a href="https://ether-linux.org"><img src="https://i.ibb.co/m5BvfGR/Ether-Linux.png" height="128" width="128" alt="Ether Linux"></a>
 </p>
@@ -17,6 +18,24 @@
 </p>
 
 ---
+
+## Navigation
+- [Introduction](#introduction)
+- [Get The ISO](#get-the-iso)
+- [Building](#building)
+- [Donate](#donate)
+
+### Building
+To get started, you need live-build from [Here](https://packages.debian.org/bullseye/live-build) or use apt  
+```
+apt install live-build -y
+```
+
+To start build, run (Run This In Root Mode)
+```
+bash build.sh
+```
+
 ### Get The ISO
 
 <p align="left">
