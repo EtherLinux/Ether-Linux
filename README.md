@@ -49,6 +49,16 @@ bash (Profile)/build.sh
 
 ----
 
+
+### Community
+
+<p align="left">
+  <a href="https://discord.gg/TKXYt2CeRN" target="_blank"><img alt="discord" src="https://img.shields.io/badge/Discord-5865F2?&style=for-the-badge&logo=Discord&logoColor=white"></a>&nbsp;&nbsp;
+  <a href="https://t.me/etherlinuxteam" target="_blank"><img alt="telegram" src="https://img.shields.io/badge/Telegram-26A5E4?&style=for-the-badge&logo=Telegram&logoColor=white"></a>&nbsp;&nbsp;
+</p>
+  
+----
+  
 ### Donate
 <p align="left">
   <a href="https://commerce.coinbase.com/checkout/db784405-3475-4b9b-b158-140cd7d5d451" target="_blank"><img alt="donate" src="https://img.shields.io/badge/Bitcoin-F7931A?&style=for-the-badge&logo=Bitcoin&logoColor=white"></a>&nbsp;&nbsp;
