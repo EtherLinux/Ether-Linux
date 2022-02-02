@@ -1,4 +1,4 @@
-# Ether-Linux-Pentest
+# Ether Linux
 
 ## Introduction
 <p align="center">
@@ -36,7 +36,7 @@ apt install live-build -y
 
 To start build, run (Run This In Root Mode)
 ```
-bash build.sh
+bash (Profile)/build.sh
 ```
 
 ### Get The ISO
