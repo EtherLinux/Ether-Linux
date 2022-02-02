@@ -29,7 +29,6 @@
 
 ### Building
 
-#### Method 1  
 To get started you need use pure debian 11 also live-build from [Here](https://packages.debian.org/bullseye/live-build) or use apt  
 ```
 apt install live-build -y
@@ -39,15 +38,6 @@ To start build, run (Run This In Root Mode)
 ```
 bash build.sh
 ```
-
-#### Method 2
-If you not use debian 11 pure or other based you can use docker.
-You need install docker and docker compose in your system, and run
-```
-docker-compose up -d 
-```
-
----
 
 ### Get The ISO
 

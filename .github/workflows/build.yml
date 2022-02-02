@@ -4,8 +4,6 @@ name: Build CI
 
 on:
   push:
-    paths:
-      - '**.md'
     branches:
       - main
   pull_request:
@@ -28,23 +26,39 @@ jobs:
         run: apt update && apt install sudo live-build figlet -y 
 
       - name: Build Ether Linux 
-        run: bash build.sh
+        run: bash ether-pentest-amd64/build.sh
+        
+      - name: Build Ether Linux 
+        run: bash ether-nonpentest-amd64/build.sh
 
-      - name: Checking Dir
-        if: always()
-        run: ls 
-
-      - name: Upload Build Log
+      - name: Upload Build Log Pentest
         uses: actions/upload-artifact@v2
         if: always()
         with:  
             name: Build Log
-            path: build.log
+            path: ether-pentest-amd64/build.log
             if-no-files-found: error
 
-      - name: Upload Ether Linux Iso
+      - name: Upload Build Log Non Pentest
         uses: actions/upload-artifact@v2
+        if: always()
+        with:  
+            name: Build Log
+            path: ether-nonpentest-amd64/build.log
+            if-no-files-found: error
+
+      - name: Upload Ether Linux Pentest Iso
+        uses: actions/upload-artifact@v2
+        if: always()
         with:
             name: Ether-Linux-Pentest-x86_64
-            path: ether-pentest-1.01_amd64.iso
+            path: ether-pentest-amd64/ether-pentest-1.01_amd64.iso
+            if-no-files-found: error
+            
+      - name: Upload Ether Linux Non Pentest Iso
+        uses: actions/upload-artifact@v2
+        if: always()
+        with:
+            name: Ether-Linux-Pentest-x86_64
+            path: ether-nonpentest-amd64/ether-nonpentest-1.01_amd64.iso
             if-no-files-found: error

@@ -1,6 +1,0 @@
-#!/bin/sh
-
-set -e
-
-# Add APT mirror ether default
-in-target sh -c "mv /etc/apt/sources.list.ether /etc/apt/sources.list"

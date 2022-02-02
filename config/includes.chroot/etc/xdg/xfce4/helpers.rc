@@ -1,5 +1,0 @@
-# This configuration is ether default applications
-WebBrowser=brave-browser
-MailReader=thunderbird
-TerminalEmulator=xfce4-terminal
-FileManager=Thunar
