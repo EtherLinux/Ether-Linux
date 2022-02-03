@@ -23,6 +23,7 @@
 - [Introduction](#introduction)
 - [Building](#building)
 - [Get The ISO](#get-the-iso)
+- [Community](#community)
 - [Donate](#donate)
 
 ---
@@ -35,6 +36,7 @@ apt install live-build -y
 ```
 
 To start build, run (Run This In Root Mode)
+(Profile : ether-pentest-amd64, ether-nonpentest-amd64)
 ```
 bash (Profile)/build.sh
 ```

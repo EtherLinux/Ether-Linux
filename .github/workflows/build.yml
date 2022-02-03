@@ -25,10 +25,10 @@ jobs:
       - name: Install Depends
         run: apt update && apt install sudo live-build figlet -y 
 
-      - name: Build Ether Linux 
+      - name: Build Ether Linux Pentest
         run: bash ether-pentest-amd64/build.sh
         
-      - name: Build Ether Linux 
+      - name: Build Ether Linux Non Pentest
         run: bash ether-nonpentest-amd64/build.sh
 
       - name: Upload Build Log Pentest
