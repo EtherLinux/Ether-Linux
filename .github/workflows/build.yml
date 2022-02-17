@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v2
 ##########################################################################
       - name: Install Depends
-        run: apt update && apt install sudo live-build figlet -y 
+        run: apt update && apt install sudo live-build figlet tree -y 
 
       - name: Build Ether Linux Pentest
         run: bash pentest-amd64/build.sh
