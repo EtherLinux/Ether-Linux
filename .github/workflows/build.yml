@@ -66,3 +66,10 @@ jobs:
       - name: Tree Command
         if: always()
         run: tree
+      - name: See Dir
+        if: always()
+        run: ls pentest-amd64 && ls nonpentest-amd64
+      
+      - name: Locate .ISO
+        if: always()
+        run: find . -name *.iso
