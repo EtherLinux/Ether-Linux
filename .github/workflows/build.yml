@@ -73,3 +73,7 @@ jobs:
       - name: Locate .ISO
         if: always()
         run: find . -name *.iso
+  
+      - name: Locate .LOG
+        if: always()
+        run: find . -name *.log
