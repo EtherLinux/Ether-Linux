@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+lb clean noauto "${@}"
+rm -rf .build/
+rm -f build.log
+rm -f config/binary config/bootstrap \
+      config/chroot config/common config/source \
+      config/package-lists/live.list.chroot

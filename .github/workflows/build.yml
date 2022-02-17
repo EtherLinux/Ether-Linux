@@ -26,17 +26,17 @@ jobs:
         run: apt update && apt install sudo live-build figlet -y 
 
       - name: Build Ether Linux Pentest
-        run: bash ether-pentest-amd64/build.sh
+        run: bash pentest-amd64/build.sh
         
       - name: Build Ether Linux Non Pentest
-        run: bash ether-nonpentest-amd64/build.sh
+        run: bash nonpentest-amd64/build.sh
 
       - name: Upload Build Log Pentest
         uses: actions/upload-artifact@v2
         if: always()
         with:  
             name: Build Log
-            path: ether-pentest-amd64/build.log
+            path: pentest-amd64/build.log
             if-no-files-found: error
 
       - name: Upload Build Log Non Pentest
@@ -44,7 +44,7 @@ jobs:
         if: always()
         with:  
             name: Build Log
-            path: ether-nonpentest-amd64/build.log
+            path: nonpentest-amd64/build.log
             if-no-files-found: error
 
       - name: Upload Ether Linux Pentest Iso
@@ -52,7 +52,7 @@ jobs:
         if: always()
         with:
             name: Ether-Linux-Pentest-x86_64
-            path: ether-pentest-amd64/ether-pentest-1.01_amd64.iso
+            path: pentest-amd64/ether-pentest-1.01_amd64.iso
             if-no-files-found: error
             
       - name: Upload Ether Linux Non Pentest Iso
@@ -60,5 +60,5 @@ jobs:
         if: always()
         with:
             name: Ether-Linux-Pentest-x86_64
-            path: ether-nonpentest-amd64/ether-nonpentest-1.01_amd64.iso
+            path: nonpentest-amd64/ether-nonpentest-1.01_amd64.iso
             if-no-files-found: error

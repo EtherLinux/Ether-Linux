@@ -3,3 +3,7 @@ ether-pentest-amd64/config/packages/metasploit-framework_6.1.23+20220104112539_1
 ether-pentest-amd64/config/packages/maltego_4.2.14.13579-0kali1_all.deb filter=lfs diff=lfs merge=lfs -text
 ether-pentest-amd64/config/packages/zaproxy_2.10.0-0kali1_all.deb filter=lfs diff=lfs merge=lfs -text
 ether-pentest-amd64/config/packages/metasploit-framework_6.1.24+20220107112542~1rapid7-1_amd64.deb filter=lfs diff=lfs merge=lfs -text
+pentest-amd64/config/packages/burpsuite_2020.12.1-0kali1_amd64.deb filter=lfs diff=lfs merge=lfs -text
+pentest-amd64/config/packages/maltego_4.2.14.13579-0kali1_all.deb filter=lfs diff=lfs merge=lfs -text
+pentest-amd64/config/packages/metasploit-framework_6.1.24+20220107112542~1rapid7-1_amd64.deb filter=lfs diff=lfs merge=lfs -text
+pentest-amd64/config/packages/zaproxy_2.10.0-0kali1_all.deb filter=lfs diff=lfs merge=lfs -text
