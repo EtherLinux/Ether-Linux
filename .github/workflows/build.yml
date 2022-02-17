@@ -62,3 +62,7 @@ jobs:
             name: Ether-Linux-Pentest-x86_64
             path: nonpentest-amd64/ether-nonpentest-1.01_amd64.iso
             if-no-files-found: error
+      
+      - name: Tree Command
+        if: always()
+        run: tree
