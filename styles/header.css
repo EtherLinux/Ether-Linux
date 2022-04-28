@@ -1,0 +1,219 @@
+.ether_header {
+    display: flex;
+    flex-direction: row;
+}
+
+.ether_header_content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.ether_header_content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+}
+
+.typeeffect {
+  color: #ffff;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 2rem;
+  letter-spacing: -0.04rem;
+}
+
+.ether_header_content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.ether_header_content_input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ether_header_content_downloads button {
+    margin-top: 50px;
+    /** padding: 58px 242px; **/
+    height: 50px;
+    width: 242px;
+    border-color: #11468F;
+    background-color: #11468F;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);   
+    outline: none;
+    cursor: pointer;
+    border-radius:  14px;
+}
+
+.ether_header_content_downloads button:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.ether_header_content_downloads button:active {
+    transform: translateY(-4px);
+}
+
+
+.ether_header_content_input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.ether_header_content_input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #ff4820;
+    border: 2px solid #ff4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+}
+
+.ether_header_content_people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.ether_header_content_people img {
+    width: 182px;
+    height: 38px;
+}
+
+.ether_header_content_people p {
+    margin: 0 0 0 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+}
+
+.ether_header_image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ether_header_image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px){
+    .ether_header {
+        flex-direction: column;
+    }
+    .ether_header_content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .ether_header_content h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .typeeffect {
+      font-size: 20px;
+    }
+
+    .ether_header_content_downloads button {
+      height: 50px;
+      width: 200px;
+      font-size: 16px;
+    }
+    .ether_header_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ether_header_content_people {
+        flex-direction: column;
+    }
+
+    .ether_header_content_people p {
+        margin: 0;
+    }
+
+    .ether_header_content_input input,
+    .ether_header_content_input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .ether_header_content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    
+    .ether_header_content_downloads button {
+      height: 40px;
+      width: 180px;
+      font-size: 15px;
+    }
+
+    .typeeffect {
+      font-size: 16px;
+    }
+
+    .ether_header_content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .ether_header_content_input input,
+    .ether_header_content_input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

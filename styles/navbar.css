@@ -1,0 +1,136 @@
+.ether_nav {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+}
+
+.ether_nav_links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ether_nav_links_logo {
+    margin-right: 2rem;
+}
+
+.ether_nav_links_logo {
+    width: 191px;
+    height: 60px;
+}
+
+/**
+.ether_nav_links_logo h1 {
+    font-size: 24px;
+    color: #fff;
+    font-family: var(--font-family);
+}
+**/
+
+.ether_nav_links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ether_nav_sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ether_nav_links_container p,
+.ether_nav_sign p,
+.ether_nav_menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.ether_nav_sign button,
+.ether_nav_menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #11468F;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius:  14px;
+}
+
+.ether_nav_menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.ether_nav_menu svg {
+    cursor: pointer;
+}
+
+.ether_nav_menu_container {
+    display: flex;
+    z-index: 2;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.ether_nav_menu_container p {
+    margin: 1rem 0;
+}
+
+.ether_nav_menu_container_links_sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .ether_nav_links_container {
+        display: none;
+    }
+    .ether_nav_menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ether_nav {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ether_nav {
+        padding: 2rem;
+    }
+    .ether_nav_sign {
+        display: none;
+    }
+    .ether_nav_menu_container {
+        top: 20px;
+    }
+    .ether_nav_menu_container_links_sign {
+        display: block;
+    }
+}
