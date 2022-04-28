@@ -1,0 +1,94 @@
+.ether_features {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 25px;
+}
+
+.etherlinux_features {
+    display: flex;
+}
+
+.etherlinux_features .etherlinux_features_container_feature {
+    margin: 0;
+}
+
+.etherlinux_features .etherlinux_features_container_feature_text {
+    max-width: 700px;
+}
+
+.etherlinux_feature_heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.etherlinux_feature_heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.etherlinux_feature_heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.etherlinux_features_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.etherlinux_features_container .etherlinux_features_container_feature {
+    flex: 1;
+    margin: 16px;
+    min-height: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.etherlinux_features_container .etherlinux_features_container_feature_text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .etherlinux_feature_heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+    .etherlinux_feature_heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .etherlinux_features .etherlinux_features_container_feature {
+        flex-direction: column;
+    }
+    .etherlinux_features .etherlinux_features_container_feature_text {
+        margin-top: 0.5rem;
+    }
+    .etherlinux_feature_heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .etherlinux_features_container .etherlinux_features_container_feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

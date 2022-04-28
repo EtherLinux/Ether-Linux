@@ -1,0 +1,81 @@
+.title {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.title h2 {
+  font-size: 34px;
+  font-family: var(--font-family);
+}
+
+.not-found {
+  margin-top: 9rem;
+}
+
+.not-found .img-fluid {
+    max-width: 66%;
+    height: auto;
+}
+
+.button_center {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ether_content {
+  text-align: center;
+  color: #fff;
+}
+
+.ether_content h3 {
+  font-size: 24px;
+  font-family: var(--font-family);
+  line-height: 38px;
+  font-weight: 800px;
+}
+
+.button_404 button {
+  background: #000;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 16px;
+    border-radius: 32px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+    margin-bottom: 2rem;
+}
+
+.button_404 button:hover {
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+@media screen and (max-width: 727px) {
+  .title h2 {
+    font-size: 28px;
+  }
+  .ether_content h3 {
+    font-size: 20px;
+  }
+}
+
+@media sreen and (min-width: 768px) {
+.not-found .button-group{
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title h2 {
+    font-size: 25px;
+  }
+
+}

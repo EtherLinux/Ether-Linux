@@ -1,0 +1,82 @@
+.ether_downloads {
+    display: flex;
+    flex-direction: row;
+}
+
+.ether_downloads_image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-right: 2rem;
+}
+
+.ether_downloads_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.ether_downloads_content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.ether_downloads_content h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+}
+
+.ether_downloads_content h4:last-child {
+    color: #ff8A71;
+}
+
+.ether_downloads_content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 1rem 0;
+}
+
+.ether_downloads_content p {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+    .ether_downloads {
+        flex-direction: column;
+    }
+
+    .ether_downloads_image {
+        margin: 1rem 0;
+    }
+
+    .ether_downloads_image img {
+        width: unset;
+        height: unset;
+    }
+
+    .ether_downloads_content {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ether_downloads_image img {
+        width: 100%;
+        height: 100%;
+    }
+}

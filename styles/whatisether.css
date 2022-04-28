@@ -1,0 +1,99 @@
+.ether_whatisether {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 25px;
+    background: rgba(34, 87, 126, 0.35);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(34, 87, 126, 1);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ether_whatisether_feature {
+    display: flex;
+}
+
+.ether_whatisether_feature .ether_features_container_feature {
+    margin: 0;
+}
+
+.ether_whatisether_feature .ether_features_container_feature_text {
+    max-width: 700px;
+}
+
+.ether_whatisether_heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.ether_whatisether_heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.ether_whatisether_heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.ether_whatisether_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.ether_whatisether_container .ether_features_container_feature {
+    flex: 1;
+    margin: 16px;
+    min-height: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.ether_whatisether_container .ether_features_container_feature_text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .ether_whatisether_heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+    .ether_whatisether_heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .ether_whatisether_feature .ether_features_container_feature {
+        flex-direction: column;
+    }
+    .ether_whatisether_feature .ether_features_container_feature_text {
+        margin-top: 0.5rem;
+    }
+    .ether_whatisether_heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ether_whatisether_container .ether_features_container_feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

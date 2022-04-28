@@ -1,0 +1,79 @@
+.ether_donate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding:  32px;
+    margin: 4rem;
+    border-radius: 1rem;
+    background-color: #48466D;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ether_donate_content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+}
+
+.ether_donate_content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.ether_donate_content h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+.ether_donate_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.ether_donate_btn button{
+    background: #000;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 16px;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 650px) {
+    .ether_donate {
+        flex-direction: column;
+    }
+    .ether_donate_btn {
+        margin: 32px 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ether_donate {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+    .ether_donate_content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .ether_donate_btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
