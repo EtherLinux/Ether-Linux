@@ -9,7 +9,7 @@ export default function NotFound() {
     <Navbar />
       <section className="not_found">
         <div className="text_center">
-          <Image src="/404.svg" width={483} height={320} alt="not-found" />
+          <Image src="/404.svg" width={483} height={300} alt="not-found" />
         </div>
         <div className="title">
           <h2 className="gradient_text">Ooops! Not Found</h2>
