@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="ether_nav_sign">
-          <Link href="#etherteam">
+          <Link href="/#etherteam">
             <a>
               <p>Ether Team</p>
             </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
                 <Menu />
               </div>
               <div className="ether_nav_menu_container_links_sign">
-                <Link href="#etherteam">
+                <Link href="/#etherteam">
                   <a>
                     <p>Ether Team</p>
                   </a>
