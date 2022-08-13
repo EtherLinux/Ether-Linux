@@ -21,7 +21,7 @@ export default function Team() {
           Title="Leader project | Tools Packaging | Ether Configuration"
           Img="1.jpg"
           Github="https://github.com/FaizTechIndo"
-          Twitt="/404"
+          Twitt=" https://twitter.com/faizcti"
           Ig="/404"
         />
         <People
