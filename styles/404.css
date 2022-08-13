@@ -8,11 +8,11 @@
   font-family: var(--font-family);
 }
 
-.not_found {
+.not-found {
   margin-top: 9rem;
 }
 
-.not_found .img_fluid {
+.not-found .img-fluid {
     max-width: 66%;
     height: auto;
 }
@@ -21,7 +21,7 @@
   text-align: center;
 }
 
-.text_center {
+.text-center {
   text-align: center;
 }
 
@@ -68,7 +68,7 @@
 }
 
 @media sreen and (min-width: 768px) {
-.not_found .button_group{
+.not-found .button-group{
     width: 190px;
   }
 }
