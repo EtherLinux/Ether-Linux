@@ -22,7 +22,7 @@ export default function Downloads() {
             Release in 2021 with version 1.0.
           </p>
           <Alert />
-          <Link href="/404">
+          <Link href="https://drive.google.com/file/d/1nfKFuItBGC4q9hgbOp-M2TiOIP6J2nB8/view">
             <a>
               <ButtonDownload />
             </a>
