@@ -1,15 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "./components/navbar";
-import Footer from "./containers/footer";
 
 export default function NotFound() {
   return (
     <>
-    <Navbar />
-      <section className="not_found">
-        <div className="text_center">
-          <Image src="/404.svg" width={483} height={420} alt="not-found" />
+      <section className="not-found">
+        <div className="text-center">
+          <Image src="/404.svg" width={483} height={300} alt="not-found" />
         </div>
         <div className="title">
           <h2 className="gradient_text">Ooops! Not Found</h2>
@@ -27,7 +24,6 @@ export default function NotFound() {
           </div>
         </div>
       </section>
-    <Footer />
     </>
   );
 }
