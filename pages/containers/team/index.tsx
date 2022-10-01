@@ -1,5 +1,5 @@
-import React from "react";
-import People from "../../components/people";
+import React from 'react';
+import People from '../../components/people';
 
 export default function Team() {
   return (
@@ -18,7 +18,7 @@ export default function Team() {
       <div className="container">
         <People
           Name="Faiz"
-          Title="Leader project | Tools Packaging | Ether Configuration"
+          Title="Leader project | Ether Configuration | Pentester"
           Img="1.jpg"
           Github="https://github.com/FaizTechIndo"
           Twitt="/404"
@@ -34,7 +34,7 @@ export default function Team() {
         />
         <People
           Name="Adyuta"
-          Title="Web Designer | Stylist Tools | Web Revisitor"
+          Title="Project Manager | Front-End Developer | Web Designer"
           Img="3.jpg"
           Github="https://github.com/adyuta447"
           Twitt="https://twitter.com/Kooceng_Peduli"
@@ -42,7 +42,7 @@ export default function Team() {
         />
         <People
           Name="GetRektBoy"
-          Title="Malware Dev | Tools Maker | Stylist Tools"
+          Title="Malware Developer | Tools Maker | Pentester"
           Img="4.jpg"
           Github="https://github.com/GetRektBoy724"
           Twitt="/404"
@@ -50,7 +50,7 @@ export default function Team() {
         />
         <People
           Name="Yanakumara"
-          Title="Tools Maker | Stylist Tools"
+          Title="Tools Maker | Pentester"
           Img="5.jpg"
           Github="https://github.com/KuMarayana"
           Twitt="/404"
@@ -74,7 +74,7 @@ export default function Team() {
         />
         <People
           Name="Fooster"
-          Title="Beta Tester"
+          Title="Beta Tester | Pentester"
           Img="8.jpg"
           Github="https://github.com/fooster1337"
           Twitt="/404"

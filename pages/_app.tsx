@@ -1,20 +1,20 @@
-import "./../styles/root.css";
-import "./../styles/index.css";
-import "./../styles/navbar.css";
-import "./../styles/header.css";
-import "./../styles/whatisether.css";
-import "./../styles/feature.css";
-import "./../styles/features.css";
-import "./../styles/download.css";
-import "./../styles/team.css";
-import "./../styles/donate.css";
-import "./../styles/footer.css";
-import "./../styles/404.css";
-import type { AppProps } from "next/app";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-import Head from "next/head";
+import '../styles/root.css';
+import '../styles/index.css';
+import '../styles/navbar.css';
+import '../styles/header.css';
+import '../styles/whatisether.css';
+import '../styles/feature.css';
+import '../styles/features.css';
+import '../styles/download.css';
+import '../styles/team.css';
+import '../styles/donate.css';
+import '../styles/footer.css';
+import '../styles/404.css';
+import type { AppProps } from 'next/app';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
