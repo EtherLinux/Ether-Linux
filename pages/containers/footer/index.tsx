@@ -1,19 +1,19 @@
-import Image from "next/image";
-import React from "react";
-import Link from "next/link";
-import LogoFooter from "../../../public/LogoFooter.png";
+import Image from 'next/image';
+import React from 'react';
+import Link from 'next/link';
 import {
   FaGithub,
   FaInstagram,
   FaDiscord,
   FaYoutube,
   FaTelegram,
-} from "react-icons/fa";
+} from 'react-icons/fa';
+import LogoFooter from '../../../public/LogoFooter.png';
 
 export default function Footer() {
   return (
     <div className="ether_footer">
-      <div className="ether_footer_heading"></div>
+      <div className="ether_footer_heading" />
       <div className="ether_footer_links">
         <div className="ether_footer_links_logo">
           <Image src={LogoFooter} alt="Logo" />

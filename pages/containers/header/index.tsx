@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import Mockup from "../../../public/MockupEther_optimized.png";
-import TypeEffect from "../../Atoms/typeeffect";
-import Link from "next/link";
+import Image from 'next/image';
+import React from 'react';
+import Link from 'next/link';
+import Mockup from '../../../public/MockupEther_optimized.png';
+import TypeEffect from '../../Atoms/typeeffect';
 
 export default function Header() {
   return (
@@ -29,7 +29,7 @@ export default function Header() {
           <Image src={Mockup} alt="Mockup" />
         </div>
       </div>
-      <div className="ether_header"></div>
+      <div className="ether_header" />
     </>
   );
 }
